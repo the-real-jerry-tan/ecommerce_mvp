@@ -1,0 +1,26 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the Gemfile.lock, which can cause issues between different environments.
+Gemfile.lock
+
+# Ignore all log files.
+log/*
+
+# Ignore temporary files and folders.
+tmp/*
+tmp/pids/*
+tmp/sessions/*
+tmp/sockets/*
+tmp/cache/*
+
+# Ignore database files.
+db/*.sqlite3
+db/*.sqlite3-journal
+
+# Ignore secrets and credentials.
+config/master.key
+config/credentials.yml.enc
+
+# Ignore system-generated files.
+.DS_Store
